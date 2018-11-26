@@ -16,10 +16,7 @@ export class Course extends Entity {
   })
   name: string;
 
-  @property({
-    type: 'array',
-    itemType: 'object',
-  })
+  @property.array(StudentRef)
   students?: StudentRef[];
 
   constructor(data?: Partial<Course>) {
