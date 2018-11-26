@@ -1,0 +1,10 @@
+{
+  "name": "mlab",
+  "connector": "mongodb",
+  "url": "",
+  "host": "ds149672.mlab.com",
+  "port": 49672,
+  "user": "jiangren1",
+  "password": "jiangren1",
+  "database": "cheng-course"
+}
