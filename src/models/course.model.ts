@@ -4,7 +4,7 @@ import { StudentRef } from './student-ref.model';
 @model()
 export class Course extends Entity {
   @property({
-    type: 'number',
+    type: 'string',
     id: true
   })
   id: number;

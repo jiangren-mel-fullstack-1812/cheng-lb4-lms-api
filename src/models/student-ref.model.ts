@@ -3,7 +3,7 @@ import { Model, model, property } from '@loopback/repository';
 @model()
 export class StudentRef extends Model {
   @property({
-    type: 'number',
+    type: 'string',
     id: true,
     required: true,
   })
