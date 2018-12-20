@@ -26,7 +26,7 @@
     "test": "lb-mocha --allow-console-logs \"dist/test\"",
     "posttest": "npm run lint",
     "test:dev": "lb-mocha --allow-console-logs dist/test/**/*.js && npm run posttest",
-    "prestart": "npm run build",
+    "prestart": "npm install && npm run build",
     "start": "node .",
     "prepublishOnly": "npm run test"
   },
